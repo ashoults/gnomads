@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat";
+}
+h3 {
+  font-size: 23px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 20px 0;
+  padding-bottom: 25px;
+}
+a {
+  text-decoration: none !important;
+}
+p {
+  font-size: 20px;
+}
+.nav-link {
+  font-size: 24px;
+  color: black !important;
+}
+.navbar-toggler:focus {
+  outline: none;
+  border: transparent;
+  box-shadow: none;
+}
+.team_image {
+  width: 160px;
+  height: 160px;
+  margin: auto;
+}
+.team_image img {
+  border-radius: 50%;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  display: none;
+}
+
+/*Hero*/
+
+.hero-text {
+  margin: 0 auto;
+}
+
+.hero-text h1 {
+  color: white !important;
+  font-size: 83px;
+  font-weight: 700;
+  max-width: 890px;
+  text-align: center;
+}
+.hero-text p {
+  color: white;
+  font-size: 22px;
+  max-width: 890px;
+  text-align: center;
+}
+
+.hero-bg {
+  background-color: #0098b4;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.hero-bg h3 {
+  color: white;
+  max-width: 550px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.hero-bg h2 {
+  color: white;
+}
+.button {
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  color: #0098b4;
+  min-width: 260px;
+  font-size: 36px;
+}
+
+.text-section p {
+  max-width: 884px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.text-section h2 {
+  color: #0098b4;
+}
+
+.features h3 {
+  font-size: 30px;
+  color: #354e79;
+  margin-top: 20px;
+}
+
+.features p {
+  color: white;
+  font-size: 20px;
+}
+.team {
+  padding: 25px 0;
+}
+.team h2 {
+  color: #0098b4;
+}
+.team h3 {
+  color: #354e79;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+/*carousel bottom buttons*/
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #000;
+  border-radius: 50% !important;
+  height: 12px !important;
+  width: 12px !important;
+}
+/*Media Query for Hero*/
+@media screen and (max-width: 1024px) {
+  .hero-text {
+    padding: 40px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 40px;
+  }
+  .hero-text p {
+    font-size: 20px;
+  }
+}
+/*Media Queries for Header*/
+
+@media screen and (max-width: 600px) {
+  .nav-link {
+    font-size: 17px;
+  }
+}
