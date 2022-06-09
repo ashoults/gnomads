@@ -35,7 +35,10 @@ const Hero = ({ data }) => {
       <div className="hero-bg">
         <Container>
           <h3 className="text-center">{data.cta}</h3>
+          <a href={`mailto:isaac@gnom-ads.com`} target="_blank">
+
           <button className="button">{data.contactButton}</button>
+          </a>
         </Container>
       </div>
     </>

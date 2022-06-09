@@ -17,7 +17,7 @@ const Contact = ({ data }) => {
         >
           {data.text}
         </p>
-        <a href={data.email} target="_blank">
+        <a href={`mailto:${data.email}`} target="_blank">
           <button className="button">{data.buttonText}</button>
         </a>
       </Container>
